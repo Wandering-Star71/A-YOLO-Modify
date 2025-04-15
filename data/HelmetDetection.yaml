@@ -1,0 +1,9 @@
+path: ../Dataset/HelmetDetection  # dataset root dir
+train: images/train  # train images (relative to 'path') 128 images
+val: images/val  # val images (relative to 'path') 128 images
+test: images/test # test images (optional)
+
+nc: 2
+names:
+  0: helmet
+  1: head
